@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdF-sP-EtF">
+                                <rect key="frame" x="150" y="250" width="80" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.030145655374867797" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="支付宝支付">
+                                    <color key="titleColor" red="0.96635361402867848" green="1" blue="0.96102841257994764" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="payWithAliPay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Me9-LC-RlZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvQ-rk-2We">
+                                <rect key="frame" x="260" y="250" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.94978687493027802" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LFR-NC-SqR"/>
+                                    <constraint firstAttribute="width" constant="80" id="mwj-TL-RtN"/>
+                                </constraints>
+                                <state key="normal" title="微信支付">
+                                    <color key="titleColor" red="0.96635361402867848" green="1" blue="0.96102841257994764" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="payWithWeChatPay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AwO-JC-gIr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuK-56-Qed">
+                                <rect key="frame" x="370" y="250" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.030356831500681025" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="银联支付">
+                                    <color key="titleColor" red="0.93166655307206447" green="1" blue="0.97669460944115927" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="payWithUPPay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J6l-Gg-OiD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品信息" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcC-4c-mkI">
+                                <rect key="frame" x="250" y="50" width="100" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="swo-II-vzy"/>
+                                    <constraint firstAttribute="height" constant="40" id="tfU-dJ-IFY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeJ-YD-jlW">
+                                <rect key="frame" x="60" y="110" width="480" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Wvj-sm-Tk7"/>
+                                </constraints>
+                                <string key="text">卡拉是倒海翻江开会；山东尽快发货；开始撒旅客大幅减少了肯德基弗兰克 阿萨德浪费空间看；你卢萨卡交流；发动机法律；撒旦解放路口时的疯狂举例来说；的开放接口；阿三收到了开发建设；离开的解放路卡萨拉快点放假啊老师；看到分类黑色阿拉山口警方立刻就撒立刻恢复了；ask</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UeJ-YD-jlW" secondAttribute="trailing" constant="60" id="5Ke-Jv-4Lw"/>
+                            <constraint firstItem="RuK-56-Qed" firstAttribute="leading" secondItem="nvQ-rk-2We" secondAttribute="trailing" constant="30" id="A31-rY-BQq"/>
+                            <constraint firstItem="RuK-56-Qed" firstAttribute="width" secondItem="nvQ-rk-2We" secondAttribute="width" id="Cda-Xv-LG7"/>
+                            <constraint firstItem="BcC-4c-mkI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="DMm-XP-D1k"/>
+                            <constraint firstItem="nvQ-rk-2We" firstAttribute="leading" secondItem="EdF-sP-EtF" secondAttribute="trailing" constant="30" id="EPZ-nS-YaS"/>
+                            <constraint firstItem="EdF-sP-EtF" firstAttribute="top" secondItem="nvQ-rk-2We" secondAttribute="top" id="ISK-z5-wiF"/>
+                            <constraint firstItem="EdF-sP-EtF" firstAttribute="height" secondItem="nvQ-rk-2We" secondAttribute="height" id="Kby-4p-Tlc"/>
+                            <constraint firstItem="UeJ-YD-jlW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SGh-0o-1kj"/>
+                            <constraint firstItem="nvQ-rk-2We" firstAttribute="top" secondItem="UeJ-YD-jlW" secondAttribute="bottom" constant="40" id="SJe-PS-SMO"/>
+                            <constraint firstItem="nvQ-rk-2We" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TIj-jO-p26"/>
+                            <constraint firstItem="UeJ-YD-jlW" firstAttribute="top" secondItem="BcC-4c-mkI" secondAttribute="bottom" constant="20" id="aQ1-D9-Bz8"/>
+                            <constraint firstItem="EdF-sP-EtF" firstAttribute="width" secondItem="nvQ-rk-2We" secondAttribute="width" id="erA-ry-cZs"/>
+                            <constraint firstItem="RuK-56-Qed" firstAttribute="top" secondItem="nvQ-rk-2We" secondAttribute="top" id="i9w-Xr-TNE"/>
+                            <constraint firstItem="UeJ-YD-jlW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="oJb-23-Zdy"/>
+                            <constraint firstItem="RuK-56-Qed" firstAttribute="height" secondItem="nvQ-rk-2We" secondAttribute="height" id="vzV-iJ-CCm"/>
+                            <constraint firstItem="BcC-4c-mkI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zwP-RJ-R19"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="shopDesc" destination="UeJ-YD-jlW" id="WMj-ab-BZ3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="189"/>
+        </scene>
+    </scenes>
+</document>
