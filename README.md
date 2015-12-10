@@ -1,2 +1,22 @@
 # iCocosPay
 第三方支付：支付宝，微信，银联封装
+
+
+
+
+
+
+版权声明：欢迎转载，请贴上源地址：
+
+
+*(博客最新地址)： http://al1020119.github.io/
+
+
+*（iOS梦工厂）： http://www.cnblogs.com/iCocos/
+
+QQ：2211523682
+
+微信：18370997821
+
+
+更多精彩请关注github：https://github.com/al1020119?tab=repositories
